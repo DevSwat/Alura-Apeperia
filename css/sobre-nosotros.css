@@ -1,4 +1,4 @@
-.sobre-nosotros {
+.sobre__nosotros {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -18,14 +18,43 @@
     margin-bottom: 1rem;
 }
 
-.sobre_nosotros__plataformas {
+.sobre__nosotros__plataformas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 1rem;
 }
 
-.sobre-nosotros {
-    color: var(--fuente-ceniza-oscuro);
+.sobre__nosotros {
+    color: var(--fuente-ceniza-claro);
     font-weight: 700;
+}
+
+.sobre__nosotros__imagen{
+    display: none;
+}
+
+/*Media querys*/
+
+@media screen and (min-width: 1024px) {
+    .sobre_nosotros {
+        display: flex;
+    }
+    .sobre_nosotros__contenido {
+        margin-right: 3rem;
+    }
+    .sobre_nosotros__titulo {
+        text-align: left;
+    }
+    .sobre-nosotros__texto--division {
+        border-bottom: 1px solid var(--cinza-medio);
+
+        padding-bottom: 1.5rem;
+    }
+    .sobre__nosotros__imagen {
+        display: block;
+    }
+    .sobre__nosotros{
+        display: flex;
+    }
 }

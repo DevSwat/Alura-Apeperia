@@ -38,3 +38,10 @@
     border-color: var(--boton-rojo);
     margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+    .destacados_panel-imagen{
+        width: 600px;
+        box-shadow: 0 2px 10px 5px #00000020;
+    }
+}
